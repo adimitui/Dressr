@@ -24,5 +24,10 @@ View the Ionic app in the browser.
 
 The native camera plugin was added.
 
-`ionic cordova plugin add cordova-plugin-camera
-npm install --save @ionic-native/camera`
+`ionic cordova plugin add cordova-plugin-camera`
+`npm install --save @ionic-native/camera`
+
+The native camera preview plugin was added.
+
+`ionic cordova plugin add cordova-plugin-camera-preview`
+`npm install --save @ionic-native/camera-preview`
