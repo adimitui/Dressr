@@ -12,6 +12,17 @@ Install Ionic. Learn more about the Ionic framework at http://www.ionicframework
 
 `npm install -g cordova ionic`
 
-View the Ionic app in the browser
+Install all dependencies before running the app.
+
+`npm install`
+
+View the Ionic app in the browser.
 
 `ionic serve`
+
+## Ionic Framework Plugins
+
+The native camera plugin was added.
+
+`ionic cordova plugin add cordova-plugin-camera
+npm install --save @ionic-native/camera`
