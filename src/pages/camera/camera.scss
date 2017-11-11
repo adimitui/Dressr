@@ -1,3 +1,25 @@
 page-camera {
+	.camera {
+		width: 110px;
+		height: 110px;
+		border-radius: 100%;
+		background-color: map-get($colors, orange);
+		display: block;
+		margin: 0px auto;
+		text-align: center;
+		transition: all 1s ease;
+		position: relative;
+		top: 400px;
+	}
 
+	.camera:active {
+		background-color: map-get($colors, orange-light);
+	}
+
+	.camera__img {
+		width: 60px;
+		height: auto;
+		position: relative;
+		top: 50%;
+	}
 }
