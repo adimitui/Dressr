@@ -50,5 +50,13 @@ export class CameraPage {
     	}, (err) => {
     		console.log(err);
     	});
-    }
+    };
+
+    // Categorize a picture according to a model
+    predictPicture(imageString) {
+    	// Set request parameters
+    	var params = {
+
+    	}
+    };
 }
