@@ -1,6 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { HttpModule } from '@angular/http';
 import { MyApp } from './app.component';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -23,7 +24,8 @@ import { BookmarksPage } from '../pages/bookmarks/bookmarks';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,6 +37,7 @@ import { BookmarksPage } from '../pages/bookmarks/bookmarks';
   providers: [
     StatusBar,
     SplashScreen,
+    HttpModule,
     Camera,
     CameraPreview,
     Base64ToGallery,
